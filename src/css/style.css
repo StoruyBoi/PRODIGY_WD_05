@@ -1,0 +1,107 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Poppins:wght@500;600&display=swap');
+  
+*{
+    
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+}
+input:focus {
+
+    outline: none;
+   }
+
+  
+.Main_seciton {
+background: url(/Assest/joshua-woroniecki-g69O4A5WlTM-unsplash.jpg);
+height: 100vh;
+    filter: blur(5px);
+}
+
+.main_contiaer {
+color: white;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+z-index: 2;
+
+
+}
+.main_contiaer input{
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    background: none;
+    color: white;
+    border-bottom: 2px solid;
+    font-size: 1.5rem;
+}
+.dat_cotnier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 257px;
+}
+.dat_cotnier img {
+  width: 90px;
+}
+
+.data_bx{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.box1{
+    display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.check{
+    display: flex;
+  align-items: center;
+    gap: 20px;
+}
+.check img{
+width: 40px;
+}
+.box1 h1{
+    font-size: 4rem;
+}
+.date_conatiener {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.date_conatiener{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 588px) {
+    .dat_cotnier {
+        gap: 2px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+.main_contiaer{
+    margin: 20px;
+}
+.data_bx {
+    display: flex;
+    flex-direction: row;
+}
+.check{
+    display: flex;
+    flex-direction: column;
+}
+.main_contiaer input {
+
+  
+}
+  }
